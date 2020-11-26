@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    height: 10vh;
+    width: 100vw;
+    background-color: #5ba4d5;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.container {
+    background-color: black;
+    height: 100vh;
+}
+
+.button-container {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.btn-delete {
+    background-color: #5ba4d5;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+    border: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-delete:hover {
+    color: black;
+}
+
+.btn {
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #5ba4d5;
+}
+
+.users {
+    height: 60vh;
+    width: 80vw;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    color: black;
+}
+.float {
+    float: right;
+    margin-right: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.number-container {
+    color: white;
+}
+.user-container {
+    margin-left: 50px;
+    padding-top: 20px;
+    line-height: 28px;
+}
+.name {
+    text-decoration: underline 3px;
+    text-decoration-color: #5ba4d5;
+    margin-bottom: 15px;
+}
+.user-info-one {
+    margin-bottom: 20px;
+}
+
+.movies-data {
+    margin-left: 50px;
+}
+
+.user-map {
+    color: white;
+}
